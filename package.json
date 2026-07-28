@@ -1,0 +1,19 @@
+{
+  "name": "task-manager-pro",
+  "version": "1.0.0",
+  "description": "A simple task management web app (Node.js + Express + SQLite)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
