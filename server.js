@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // Serve the frontend
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(__dirname));
 
 // API routes
 app.use('/api/tasks', tasksRouter);
