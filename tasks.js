@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../db');
+const db = require('./db');
 
 const VALID_PRIORITIES = ['LOW', 'MEDIUM', 'HIGH'];
 const VALID_STATUSES = ['TODO', 'IN_PROGRESS', 'DONE'];
